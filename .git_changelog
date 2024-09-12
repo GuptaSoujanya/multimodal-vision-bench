@@ -8,3 +8,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-08-26] feat: models: add MockVLMProvider returning simulated multi-modal outputs
 - [2024-08-31] feat: tasks: implement ChartQATask and numerical answer parser
 - [2024-09-06] feat: metrics: implement relaxed accuracy metric with ±5% tolerance
+- [2024-09-12] test: add unit tests for ChartQA numeric tolerance validation
