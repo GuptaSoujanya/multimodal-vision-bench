@@ -11,3 +11,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-09-12] test: add unit tests for ChartQA numeric tolerance validation
 - [2024-09-17] feat: tasks: implement DocVQATask document visual question answering
 - [2024-09-23] feat: metrics: implement Character Error Rate (CER) and Word Error Rate (WER)
+- [2024-09-29] test: add test suite for OCR Levenshtein distance calculations
