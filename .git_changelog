@@ -14,3 +14,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-09-29] test: add test suite for OCR Levenshtein distance calculations
 - [2024-10-04] feat: tasks: implement SpatialReasoningTask bounding box predictor
 - [2024-10-10] feat: metrics: implement 2D Intersection over Union (IoU) calculation
+- [2024-10-15] test: verify IoU calculation for disjoint, overlapping, and nested boxes
