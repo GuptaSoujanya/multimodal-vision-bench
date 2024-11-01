@@ -17,3 +17,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-10-15] test: verify IoU calculation for disjoint, overlapping, and nested boxes
 - [2024-10-21] ci: configure GitHub Actions automated test workflow for Python 3.10-3.12
 - [2024-10-27] docs: document VLM evaluation metrics and benchmark methodology in README
+- [2024-11-01] feat: cli: implement vision-bench command line runner
