@@ -25,3 +25,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-29] fix: handle percentage signs and comma separators in ChartQA numbers
 - [2024-12-05] test: add unit tests for currency and percentage numeric normalization
 - [2024-12-11] feat: reporters: add structured JSON export for VLM benchmark logs
+- [2024-12-16] docs: add visual architecture overview and OCR error rate analysis
