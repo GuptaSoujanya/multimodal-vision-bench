@@ -26,3 +26,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-12-05] test: add unit tests for currency and percentage numeric normalization
 - [2024-12-11] feat: reporters: add structured JSON export for VLM benchmark logs
 - [2024-12-16] docs: add visual architecture overview and OCR error rate analysis
+- [2024-12-22] chore: bump version to v0.1.0 and stabilize benchmark task schemas
