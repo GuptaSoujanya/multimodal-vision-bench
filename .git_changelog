@@ -28,3 +28,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-12-16] docs: add visual architecture overview and OCR error rate analysis
 - [2024-12-22] chore: bump version to v0.1.0 and stabilize benchmark task schemas
 - [2025-01-15] feat: tasks: add MathVista visual mathematical reasoning benchmark split
+- [2025-02-05] feat: metrics: implement mathematical expression equivalence for geometry problems
