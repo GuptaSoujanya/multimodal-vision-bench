@@ -31,3 +31,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-05] feat: metrics: implement mathematical expression equivalence for geometry problems
 - [2025-02-27] test: add unit tests for geometric formula answer parsing
 - [2025-03-20] docs: document MathVista benchmark protocol and multi-modal prompt templates
+- [2025-04-11] feat: models: add HuggingFace vision pipeline wrapper for Qwen2-VL
