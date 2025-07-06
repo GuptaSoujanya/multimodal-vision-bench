@@ -35,3 +35,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-05-03] test: verify Qwen2-VL wrapper correctly processes image inputs and prompts
 - [2025-05-24] perf: optimize image resizing and tensor conversion pipeline to reduce latency
 - [2025-06-15] docs: add benchmark comparison table: Qwen2-VL-7B vs LLaVA-NeXT on ChartQA
+- [2025-07-06] fix: handle corrupted image files gracefully without terminating benchmark run
