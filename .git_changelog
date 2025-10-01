@@ -39,3 +39,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-07-28] feat: reporters: add HTML visual report displaying query image, model output, and ground truth
 - [2025-08-19] chore: release v1.0.0 production milestone with verified multi-modal metrics
 - [2025-09-09] docs: update README with comprehensive quickstart and visual report samples
+- [2025-10-01] chore: update pyproject.toml dependencies and lockfile
