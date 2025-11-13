@@ -41,3 +41,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-09] docs: update README with comprehensive quickstart and visual report samples
 - [2025-10-01] chore: update pyproject.toml dependencies and lockfile
 - [2025-10-22] chore: stabilize public API exports and configuration interfaces
+- [2025-11-13] chore: polish documentation
