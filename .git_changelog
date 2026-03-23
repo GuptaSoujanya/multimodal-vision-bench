@@ -44,3 +44,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-11-13] chore: polish documentation
 - [2026-01-15] feat: add dynamic high-resolution image tiling simulation (AnyRes style)
 - [2026-02-17] feat: evaluate impact of image patch resolution on DocVQA Character Error Rate
+- [2026-03-23] test: verify higher patch resolution reduces CER on small tabular text
