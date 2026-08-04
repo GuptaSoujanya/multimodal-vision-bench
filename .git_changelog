@@ -48,3 +48,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-04-25] docs: add benchmark analysis on resolution vs compute cost in VLMs
 - [2026-05-29] perf: optimize Levenshtein distance calculation with Cython/C accelerated helpers
 - [2026-07-02] fix: ensure compatibility with Python 3.12 and modern Pillow releases
+- [2026-08-04] test: verify full test suite passes with zero warnings on all platforms
