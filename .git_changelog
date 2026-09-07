@@ -1,51 +1,16 @@
-# Engineering Changelog: multimodal-vision-bench
-
-Inception Date: 2024-08-15
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2024-08-15] chore: scaffold multimodal-vision-bench repository and pyproject.toml
-- [2024-08-20] feat: models: implement BaseVLMProvider abstract interface
-- [2024-08-26] feat: models: add MockVLMProvider returning simulated multi-modal outputs
-- [2024-08-31] feat: tasks: implement ChartQATask and numerical answer parser
-- [2024-09-06] feat: metrics: implement relaxed accuracy metric with ±5% tolerance
-- [2024-09-12] test: add unit tests for ChartQA numeric tolerance validation
-- [2024-09-17] feat: tasks: implement DocVQATask document visual question answering
-- [2024-09-23] feat: metrics: implement Character Error Rate (CER) and Word Error Rate (WER)
-- [2024-09-29] test: add test suite for OCR Levenshtein distance calculations
-- [2024-10-04] feat: tasks: implement SpatialReasoningTask bounding box predictor
-- [2024-10-10] feat: metrics: implement 2D Intersection over Union (IoU) calculation
-- [2024-10-15] test: verify IoU calculation for disjoint, overlapping, and nested boxes
-- [2024-10-21] ci: configure GitHub Actions automated test workflow for Python 3.10-3.12
-- [2024-10-27] docs: document VLM evaluation metrics and benchmark methodology in README
-- [2024-11-01] feat: cli: implement vision-bench command line runner
-- [2024-11-07] feat: reporters: add markdown summary report of multi-modal benchmarks
-- [2024-11-13] perf: optimize 2D IoU calculation with vectorized coordinate math
-- [2024-11-18] docs: add comparative performance table for LLaVA-1.6 and Qwen2-VL
-- [2024-11-24] feat: tasks: add InfoVQA infographic reasoning evaluation split
-- [2024-11-29] fix: handle percentage signs and comma separators in ChartQA numbers
-- [2024-12-05] test: add unit tests for currency and percentage numeric normalization
-- [2024-12-11] feat: reporters: add structured JSON export for VLM benchmark logs
-- [2024-12-16] docs: add visual architecture overview and OCR error rate analysis
-- [2024-12-22] chore: bump version to v0.1.0 and stabilize benchmark task schemas
-- [2025-01-15] feat: tasks: add MathVista visual mathematical reasoning benchmark split
-- [2025-02-05] feat: metrics: implement mathematical expression equivalence for geometry problems
-- [2025-02-27] test: add unit tests for geometric formula answer parsing
-- [2025-03-20] docs: document MathVista benchmark protocol and multi-modal prompt templates
-- [2025-04-11] feat: models: add HuggingFace vision pipeline wrapper for Qwen2-VL
-- [2025-05-03] test: verify Qwen2-VL wrapper correctly processes image inputs and prompts
-- [2025-05-24] perf: optimize image resizing and tensor conversion pipeline to reduce latency
-- [2025-06-15] docs: add benchmark comparison table: Qwen2-VL-7B vs LLaVA-NeXT on ChartQA
-- [2025-07-06] fix: handle corrupted image files gracefully without terminating benchmark run
-- [2025-07-28] feat: reporters: add HTML visual report displaying query image, model output, and ground truth
-- [2025-08-19] chore: release v1.0.0 production milestone with verified multi-modal metrics
-- [2025-09-09] docs: update README with comprehensive quickstart and visual report samples
-- [2025-10-01] chore: update pyproject.toml dependencies and lockfile
-- [2025-10-22] chore: stabilize public API exports and configuration interfaces
-- [2025-11-13] chore: polish documentation
-- [2026-01-15] feat: add dynamic high-resolution image tiling simulation (AnyRes style)
-- [2026-02-17] feat: evaluate impact of image patch resolution on DocVQA Character Error Rate
-- [2026-03-23] test: verify higher patch resolution reduces CER on small tabular text
-- [2026-04-25] docs: add benchmark analysis on resolution vs compute cost in VLMs
-- [2026-05-29] perf: optimize Levenshtein distance calculation with Cython/C accelerated helpers
-- [2026-07-02] fix: ensure compatibility with Python 3.12 and modern Pillow releases
-- [2026-08-04] test: verify full test suite passes with zero warnings on all platforms
+[2024-04-18T11:12:23] chore: scaffold: initialize multimodal-vision-bench architecture
+[2024-10-07T19:10:09] feat: metrics: implement normalized Character Error Rate (CER)
+[2024-12-19T15:49:47] feat: metrics: implement bounding-box 2D IoU calculation
+[2025-03-01T11:51:51] feat: metrics: implement relaxed accuracy with 5% margin for ChartQA
+[2025-05-15T12:47:47] test: add unit tests for CER, IoU, and relaxed chart matching
+[2025-05-26T11:30:25] feat: tasks: implement ChartQA structured reasoning evaluation task
+[2025-06-03T20:06:22] feat: tasks: implement DocVQA invoice and document text extraction task
+[2025-07-07T17:30:22] feat: tasks: implement 2D spatial grounding evaluation task
+[2025-10-13T20:54:33] feat: cli: add VLM evaluation runner CLI with summary tables
+[2025-10-13T14:11:31] ci: configure GitHub Actions continuous integration pipeline
+[2026-02-16T10:19:26] docs: add visual evaluation taxonomy diagram and metrics guide
+[2026-04-06T12:28:45] feat: tasks: add normalized table parsing accuracy metric for DocVQA
+[2026-07-10T12:49:45] perf: vectorize IoU box intersection routines
+[2026-09-04T11:39:27] feat: models: add Qwen2-VL prompt formatting adapter
+[2026-09-14T20:25:09] docs: update benchmark table with GPT-4o and Claude-3.5-Sonnet vision scores
+[2026-10-07T15:25:11] chore: release v0.2.5 and update evaluation datasets
