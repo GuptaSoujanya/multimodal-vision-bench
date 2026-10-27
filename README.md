@@ -46,3 +46,5 @@ python -m vision_bench.cli
 MIT License (c) 2024 Soujanya Gupta.
 
 <!-- PR #5: docs: clarify benchmark metric configuration options -->
+
+<!-- PR #18: perf: optimize memory buffer reuse during batch evaluation -->
