@@ -44,3 +44,5 @@ python -m vision_bench.cli
 ## License
 
 MIT License (c) 2024 Soujanya Gupta.
+
+<!-- PR #5: docs: clarify benchmark metric configuration options -->
