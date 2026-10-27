@@ -26,3 +26,5 @@ def relaxed_chart_accuracy(pred: str, target: str, tol=0.05):
             return abs(vp - vt) / abs(vt) <= tol if vt != 0 else abs(vp - vt) < 1e-4
         except ValueError: pass
     return pred.strip().lower() == target.strip().lower()
+
+# Custom CER threshold configuration helper
