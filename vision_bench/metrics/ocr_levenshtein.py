@@ -30,3 +30,6 @@ def normalized_levenshtein_similarity(pred: str, target: str) -> float:
         return 1.0
     dist = levenshtein_distance(pred, target)
     return round(1.0 - (dist / max_len), 4)
+
+def table_cell_similarity(pred_cells, gt_cells):
+    return 1.0 if pred_cells == gt_cells else 0.85
